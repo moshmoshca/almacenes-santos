@@ -1,2 +1,2 @@
 # Ignore directory with irrelevant imgs and info
-build-material/
+/build-material/
