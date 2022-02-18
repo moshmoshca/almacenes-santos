@@ -1,4 +1,4 @@
-# Santos L Reatil Warehouse
+# Santos L Retail Warehouse
 
 First 'real world' project.
 
