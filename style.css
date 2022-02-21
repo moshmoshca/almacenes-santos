@@ -16,6 +16,7 @@
 body {
     font-family: Texta, sans-serif;
     font-weight: 400;
+    text-align: center;
 
     overflow-x: hidden;
 }
@@ -121,7 +122,6 @@ body {
     display: flex;
     flex-direction: column;
     padding: 3.5rem 1.4rem;
-    text-align: center;
     gap: 1rem;
 
     position: relative;
@@ -196,6 +196,7 @@ body {
 
 .search-container {
     padding-top: 7rem;
+    
 
     text-align: center;
 }
@@ -218,4 +219,66 @@ body {
     padding: 0.5rem 1rem;
 
     font-size: 1rem;
+}
+
+
+/* ------------------ Products Categories ------------------- */
+
+.prod-categories {
+    margin-top: 3.5rem;
+    padding: 1rem 1.18rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.prod-categories .title {
+    font-size: 1.25rem;
+    font-weight: 700;
+
+    color: #0B467E;
+}
+
+.show-all {
+    display: none;
+}
+
+/* Categories */
+
+.categories-container {
+    margin-top: 3.5rem;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+    gap: 1.5rem;
+
+    padding: 0 2.5rem;
+}
+
+.categories-container .category {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.category .prod-icon {
+    background-color: #EEEEEE;
+    width: 6rem;
+    height: 6rem;
+
+    border-radius: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+
+    margin-bottom: 0.3rem;
+}
+
+.category .category-name {
+    font-size: 1.125rem;
+    color: #252525;
 }
