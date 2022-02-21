@@ -37,6 +37,8 @@ body {
 .nav-container {
     display: flex;
     justify-content: space-between;
+    align-content: center;
+    padding: 1rem 1.18rem;
 }
 
 .primary-nav {
@@ -88,7 +90,7 @@ body {
         width: 1.5rem;
         aspect-ratio: 1;
         top: 2rem;
-        right: 2rem;
+        right: 1.4rem;
     }
 
     .mobile-nav-toggle[aria-expanded="true"] {
@@ -105,4 +107,87 @@ body {
     .primary-nav {
         font-size: 1.2em;
     }
+}
+
+/* ----------------------- Hero ------------------------ */
+
+#hero {
+    background-color: #0B467E;
+    height: 85vh;
+    color: white;
+}
+
+.hero-container {
+    display: flex;
+    flex-direction: column;
+    padding: 3.5rem 1.4rem;
+    text-align: center;
+    gap: 1rem;
+
+    position: relative;
+}
+
+.hero-text .heading {
+    font-size: 2.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 3rem;
+    margin-bottom: 1.8rem;
+}
+
+.hero-text p {
+    line-height: 1.8rem;
+    margin-bottom: 2.5rem;
+}
+
+.hero-text .button {
+    text-decoration: none;
+    color: #404040;
+    font-size: 1rem;
+    font-weight: 500;
+
+    padding: 0.6rem 3rem;
+
+    background-color: #84CDEE;
+    border-radius: 50px;
+}
+
+.hero-images {
+    display: grid;
+    grid-template: repeat(5, 1fr) / repeat(4, 1fr);
+    gap: 1rem;
+    height: 400px;
+
+    position: absolute;
+    inset: 24.5rem 1.4rem;
+}
+
+.hero-img {
+    border-radius: 0.5rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    box-shadow: 0 3px 10px rgba(37, 37, 37, 0.5);
+}
+
+.hero-img.one {
+    background-image: url(./images/hero-img-01.jpg);
+    
+    grid-row: 1 / span 3;
+    grid-column: 1 / span 4;
+}
+
+.hero-img.two {
+    background-image: url(./images/hero-img-02.jpg);
+
+    grid-row: 4 / span 2;
+    grid-column: 1 / span 2;
+}
+
+.hero-img.three {
+    background-image: url(./images/hero-img-04.jpg);
+
+    grid-row: 4 / span 2;
+    grid-column: 3 / span 2;
 }
