@@ -6,21 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Almacenes Santos L</title>
     <link rel="stylesheet" href="/style.css">
+    <script src="/nav.js" defer></script>
 </head>
 <body>
     <header>
         <!-------------------- Navigation ---------------------->
         <nav class="nav-container">
-            <a href="./index.html"><img src="./images/asl-logo-color.svg" alt="Almacenes Santos L. logo"></a>
-            <ul class="nav-menu">
+            <div>
+                <a href="./index.html"><img src="./images/asl-logo-color.svg" alt="Almacenes Santos L. logo"></a>
+            </div>
+
+            <button class="mobile-nav-toggle" aria-controls="primary-navigation" aria-expanded="false">
+                <span class="sr-only">Menu</span>
+            </button>
+
+            <ul id="primary-navigation" data-visible="false" class="primary-nav">
                 <li><a href="#">Catálogo</a></li>
                 <li><a href="#">Sobre nosotros</a></li>
                 <li><a href="#">Servicios</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
-            <div class="mobile-menu">
-                <img src="./images/icons/ham-menu.svg" alt="">
-            </div>
+
         </nav>
     </header>
     <main>
