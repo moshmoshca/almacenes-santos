@@ -367,9 +367,10 @@ body {
 
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
 
     position: relative;
+    z-index: 10;
 }
 
 
@@ -388,4 +389,22 @@ body {
 
     position: absolute;
     inset: 25.5rem 1.4rem;
+}
+
+/*-------------------- Brands TBD ---------------------- */
+
+#brand {
+    padding: 0;
+    margin: 0;
+}
+
+.brands-container {
+    width: 100%;
+    background-color: #0C467F;
+    height: 80vh;
+
+    position: absolute;
+    top: 175rem;
+    left: 0;
+    z-index: 0;
 }
