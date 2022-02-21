@@ -191,3 +191,31 @@ body {
     grid-row: 4 / span 2;
     grid-column: 3 / span 2;
 }
+
+/* --------------------- Search Bar ---------------------- */
+
+.search-container {
+    padding-top: 7rem;
+
+    text-align: center;
+}
+
+.search-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.5rem;
+
+    color: #AB1B1E;
+
+    margin-bottom: 1rem;
+}
+
+.search-container .search-bar {
+    border: 1px solid #252525;
+    border-radius: 2rem;
+    width: 70%;
+    padding: 0.5rem 1rem;
+
+    font-size: 1rem;
+}
