@@ -202,7 +202,7 @@ body {
 /* --------------------- Search Bar ---------------------- */
 
 .search-container {
-    padding-top: 7rem;
+    padding-top: 7.5rem;
 
     text-align: center;
 }
@@ -231,8 +231,8 @@ body {
 /* ------------------ Products Categories ------------------- */
 
 .prod-categories {
-    margin-top: 3.5rem;
-    padding: 1rem 1.18rem;
+    margin-top: 3rem;
+    padding: 0 1.18rem;
 
     display: flex;
     flex-direction: column;
@@ -283,3 +283,16 @@ body {
 }
 
 /*-------------------- Seasonal products -------------------- */
+
+.season-container {
+    margin-top: 3rem;
+    padding: 0 1.18rem;
+
+}
+
+.season-feat {
+    display: flex;
+    flex-direction: column;
+
+    height: 400px;
+}
