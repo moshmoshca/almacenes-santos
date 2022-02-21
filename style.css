@@ -352,10 +352,19 @@ body {
 /*-------------------- Core Values ---------------------- */
 
 #core-values {
-    padding: 0 1.4rem;
+    /*  try display grid*/
 }
 
-.values-container {
+/* #core-values {
+    height: 90vh;
+    background-color: #0C467F;
+    padding: 0 1.4rem;
+
+    position: relative;
+    margin-top: 9rem;
+} */
+
+/* .values-container {
     background-color: #AB1B1E;
     border-radius: 0.8rem;
     padding: 2rem 1.5rem;
@@ -369,17 +378,19 @@ body {
     flex-direction: column;
     gap: 1.5rem;
 
-    position: relative;
-    z-index: 10;
-}
+    position: absolute;
+    top: -9rem;
+    left: 1.4rem;
+    right: 1.4rem;
+} */
 
 
- .button.values-btn {
+ /* .button.values-btn {
    background-color: #E0FFFF;
    margin: 2rem 0;
-}
+} */
 
-.values-image {
+/* .values-image {
     height: 12.5rem;
     background-image: url(./images/core-values-01.jpg);
     background-size: cover;
@@ -388,23 +399,27 @@ body {
     border-radius: 0.6rem;
 
     position: absolute;
-    inset: 25.5rem 1.4rem;
-}
+    inset: 30rem 1.4rem;
+} */
 
 /*-------------------- Brands TBD ---------------------- */
 
-#brand {
-    padding: 0;
-    margin: 0;
-}
 
-.brands-container {
-    width: 100%;
-    background-color: #0C467F;
-    height: 80vh;
-
+/* .brands-container {
+    margin-top: 40rem;
     position: absolute;
-    top: 175rem;
-    left: 0;
-    z-index: 0;
-}
+} */
+
+/* .brands-container .secondary-title {
+    color: white;
+} */
+
+/* .brands-container .brand-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+
+    gap: 2.5rem;
+    padding: 0 3.2rem;
+} */
