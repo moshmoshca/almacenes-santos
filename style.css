@@ -21,6 +21,13 @@ body {
     overflow-x: hidden;
 }
 
+.title {
+    font-size: 1.875rem;
+    font-weight: 700;
+
+    color: #0B467E;
+}
+
 .sr-only {
     position: absolute;
     width: 1px;
@@ -196,7 +203,6 @@ body {
 
 .search-container {
     padding-top: 7rem;
-    
 
     text-align: center;
 }
@@ -230,13 +236,6 @@ body {
 
     display: flex;
     flex-direction: column;
-}
-
-.prod-categories .title {
-    font-size: 1.25rem;
-    font-weight: 700;
-
-    color: #0B467E;
 }
 
 .show-all {
@@ -282,3 +281,5 @@ body {
     font-size: 1.125rem;
     color: #252525;
 }
+
+/*-------------------- Seasonal products -------------------- */
