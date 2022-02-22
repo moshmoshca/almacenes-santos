@@ -87,9 +87,12 @@ body {
 }
 
 /* =============== Nav Media Query ================= */
+/* ================================================== */
 
 @media (max-width: 35em) {
     .primary-nav {
+        text-align: left;
+
         gap: 1.2em;
         position: fixed;
         z-index: 1000;
@@ -136,6 +139,8 @@ body {
 @media (min-width: 35em) and (max-width: 55em) {
     .primary-nav {
         font-size: 1.2em;
+        align-items: center;
+        gap: 1.4rem;
     }
 }
 
@@ -209,10 +214,45 @@ body {
     grid-column: 3 / span 2;
 }
 
+
+/* =============== Hero Media Query ================= */
+/* ================================================== */
+
+@media (min-width: 35em) and (max-width: 55em) {
+ 
+    .hero-container {
+        padding: 4rem 4rem;
+        text-align: left;
+    }
+
+    .hero-text .heading {
+        font-size: 3.5rem;
+        line-height: 3.5rem;
+    }
+
+    .hero-images {
+        padding: 0 2.5rem;
+        height: 500px;
+        gap: 1.2rem;
+    }
+
+    /* Search */
+
+    .search-container {
+        margin-bottom: 7rem;
+    }
+
+    /* Seasons */
+
+    .season-container {
+        margin-top: 6rem;
+    }
+
+}
 /* --------------------- Search Bar ---------------------- */
 
 .search-container {
-    padding-top: 17rem;
+    margin-top: 17rem;
 
     text-align: center;
 }
