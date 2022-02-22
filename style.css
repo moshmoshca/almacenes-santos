@@ -424,7 +424,7 @@ body {
     margin-bottom: 1.3rem;
 }
 
-.social-icons img {
+.contact-info .social-icons img {
     padding: 2.5rem 1rem;
 }
 
@@ -503,7 +503,7 @@ body {
 
     display: flex;
     flex-direction: column;
-
+    gap: 2rem;
 }
 
 .footer-logo {
@@ -514,19 +514,54 @@ body {
     order: 3;
 }
 
+.footer-container .social-icons img {
+    padding: 0 1rem;
+}
+
 .footer-nav {
     order: 2;
+    margin-top: 2rem;
 }
 
 .footer-nav ul {
     list-style: none;
     text-align: left;
+
+    margin-bottom: 2rem;
+}
+
+.footer-nav .footer-nav-title {
+    text-transform: uppercase;
+    font-size: 1.375rem;
+
+    margin-bottom: 1rem;
+}
+
+.footer-nav li {
+    line-height: 1.8rem;
 }
 
 .copyright {
     order: 4;
+    padding: 0 3rem;
 }
 
 .designed-by {
     order: 5;
+    font-weight: 100;
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+
+    margin-top: 2rem;
+}
+
+.designer {
+    font-weight: 900;
+    font-style: italic;
+    
+}
+
+.designer a {
+    text-decoration: none;
+    color: white;
 }
