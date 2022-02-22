@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="260" height="77.424" viewBox="0 0 260 77.424">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_143" data-name="Rectangle 143" width="260" height="77.424" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="Rectangle_140" data-name="Rectangle 140" width="124.48" height="25.106" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_141" data-name="Rectangle 141" width="174.941" height="14.169" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-4">
+      <rect id="Rectangle_142" data-name="Rectangle 142" width="176.869" height="42.2" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="asl-white-logo" clip-path="url(#clip-path)">
+    <path id="Path_65" data-name="Path 65" d="M194.657,245.938l-.005-.005s0,.008-.005.01l.035.015Zm0,0-.005-.005s0,.008-.005.01l.035.015Zm0,0-.005-.005s0,.008-.005.01l.035.015Zm-9.317,11.407c.005-.005.013-.008.018-.013v-.008Zm9.317-11.407-.005-.005s0,.008-.005.01l.035.015Z" transform="translate(-138.506 -183.787)" fill="#fff"/>
+    <path id="Path_66" data-name="Path 66" d="M32.261,112.108a2.913,2.913,0,0,0-.991-2.471l-.008-.008a4.265,4.265,0,0,0-.713-.675q-6.508-3.775-13.029-7.523l-.01,0c-2.939-1.746-5.855-3.528-8.819-5.226A29,29,0,0,0,3.4,93.34C1.415,92.7.035,93.732.035,95.776c0,11.07.023,22.138-.035,33.209A2.538,2.538,0,0,0,1.43,131.5c4.422,2.547,8.819,5.14,13.239,7.692,2.83,1.632,5.688,3.222,8.533,4.831,1.488.884,2.944,1.835,4.48,2.628a2.751,2.751,0,0,0,3.588-.685,2.755,2.755,0,0,0,.991-2.456q.019-15.7,0-31.4m-8.01,26.924c-1.673-.96-3.328-1.92-5-2.853-.283-.159-.273-.379-.3-.627-.053-.5-.087-1.043-.121-1.524-.068-.977-.135-2.081-.156-2.589-.037-.862-.293-.92-.944-1.333-.482-.306-5-2.544-6.274-3.35-.564-.359-.9-.338-1.253.23-.432.7-.777,1.212-1.251,2s-.834.809-1.478.427c-1.17-.695-2.327-1.413-3.515-2.07-.665-.366-.629-.68-.215-1.269q6.156-8.752,12.246-17.555c.427-.619.725-.6,1.294-.23a26.076,26.076,0,0,0,3.042,1.764,2.132,2.132,0,0,1,1.266,1.963c.452,4.809.91,9.612,1.418,14.414.43,4.078.927,8.149,1.39,12.225a.59.59,0,0,1,0,.324.105.105,0,0,1-.15.05" transform="translate(0 -69.611)" fill="#fff"/>
+    <path id="Path_67" data-name="Path 67" d="M196.825,74.643s0,0-.005,0v0Z" transform="translate(-147.085 -55.781)" fill="#fff"/>
+    <path id="Path_68" data-name="Path 68" d="M196.825,74.643s0,0-.005,0v0Z" transform="translate(-147.085 -55.781)" fill="#fff"/>
+    <path id="Path_69" data-name="Path 69" d="M222.236,246l-.066-.038a.019.019,0,0,1,.01-.005l.025.02.008.005Z" transform="translate(-166.029 -183.802)" fill="#fff"/>
+    <path id="Path_70" data-name="Path 70" d="M222.205,245.973l-.035-.015a.019.019,0,0,1,.01-.005Z" transform="translate(-166.029 -183.802)" fill="#fff"/>
+    <path id="Path_71" data-name="Path 71" d="M187.5,266.2h0s0,0,0,0" transform="translate(-140.118 -198.932)" fill="#fff"/>
+    <path id="Path_72" data-name="Path 72" d="M175.424,128.37c0-10.588.005-20.656,0-31.244a3.786,3.786,0,0,0-.928-2.6c-.817-.925-2.2-1.7-4.541-.336-7.6,4.415-15.21,8.806-22.793,13.249-1.286.753-2.734,1.286-3.742,2.474a2.356,2.356,0,0,0-.781,2.011q.011,16.143,0,32.287a2.7,2.7,0,0,0,.293,1.332c1.039,1.923,3.111,2.2,5.248.667,1.271-.67,22.925-13.221,25.229-14.555a3.8,3.8,0,0,0,2.011-3.288m-7.111.349c-.925.522-4.589,2.627-8.275,4.762-3.785,2.193-7.586,4.413-7.862,4.633-.766.422-1.036.263-1.036-.675.008-7.99-.033-15.98-.056-23.97,0-.409-.076-.824.4-1.094,2.107-1.188,4.2-2.4,6.479-3.71V126.9c3.538-2.072,6.838-4.008,10.138-5.943.927-.513,1.16-.167,1.13.8q-.091,2.695.005,5.392a1.535,1.535,0,0,1-.925,1.567" transform="translate(-106.596 -69.84)" fill="#fff"/>
+    <path id="Path_73" data-name="Path 73" d="M57.413,193.8c-1.076-.639-2.171-1.248-3.255-1.872-.389-.22-.708-.422-.346-.963,1.152-1.731,2.267-3.485,3.4-5.228.114.015.225.03.336.048q.3,3.79.589,7.578c.045.614-.169.763-.72.437" transform="translate(-40.096 -138.799)" fill="#fff"/>
+    <path id="Path_74" data-name="Path 74" d="M74.334,15.658a10.873,10.873,0,0,0-2.643-2.312c-3.755-2.209-7.535-4.379-11.3-6.573a1.422,1.422,0,0,0-1.632.015c-1.14.708-2.332,1.324-3.492,1.994-6.749,3.9-13.5,7.785-20.231,11.72a2.1,2.1,0,0,1-2.522-.01c-1.15-.766-2.368-1.43-3.558-2.133-1.37-.809-1.367-.854.018-1.658Q39.529,10.588,50.08,4.469c.677-.394,1.284-.91,1.966-1.3A1.283,1.283,0,0,0,52.292,3l.515-.308c-.149-.083-.293-.167-.437-.25C51.25,1.808,50.28,1.267,49.32.711c-.045-.028-.093-.053-.139-.078-1.938-1.066-3.441-.695-5.4.448C41.313,2.523,19.452,15.3,18.289,16.343a1.67,1.67,0,0,0-.066,2.8,11.091,11.091,0,0,0,2.335,1.693c4.053,2.375,8.117,4.733,12.155,7.128a1.714,1.714,0,0,0,1.971.008c2.418-1.418,4.872-2.78,7.313-4.162.116-.063,14.687-8.564,15.073-8.8,1.989-1.193,1.92-1.138,3.332-.127l2.542,1.561c.431.282,1.57.764,1.605,1.2.04.483-.364.5-.74.73a10.436,10.436,0,0,1-1,.478S48.43,27.236,44.678,29.447c-1.5.882-2.979,1.781-4.632,2.77,1.309.743,2.4,1.354,3.487,1.981a5.469,5.469,0,0,0,5.916-.051c7.058-4.121,14.146-8.19,21.226-12.271A15.389,15.389,0,0,0,74.3,19.418c1.218-1.276,1.205-2.423.038-3.76" transform="translate(-13.074 0)" fill="#fff"/>
+    <g id="Group_113" data-name="Group 113" transform="translate(83.13 3.5)" style="isolation: isolate">
+      <g id="Group_112" data-name="Group 112">
+        <g id="Group_111" data-name="Group 111" clip-path="url(#clip-path-2)">
+          <text id="ALMACENES" transform="translate(0 19.503)" fill="#fff" font-size="23" font-family="Texta-Regular, Texta"><tspan x="0" y="0">ALM</tspan><tspan y="0" letter-spacing="-0.017em">A</tspan><tspan y="0">CENES</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Group_116" data-name="Group 116" transform="translate(83.13 59.5)" style="isolation: isolate">
+      <g id="Group_115" data-name="Group 115">
+        <g id="Group_114" data-name="Group 114" clip-path="url(#clip-path-3)">
+          <text id="MAYORISTAS_-_IMPORTADORES" data-name="MAYORISTAS - IMPORTADORES" transform="translate(0 10.429)" fill="#fff" font-size="13.2" font-family="Texta-Regular, Texta"><tspan x="0" y="0">M</tspan><tspan y="0" letter-spacing="-0.058em">A</tspan><tspan y="0" letter-spacing="-0.03em">Y</tspan><tspan y="0">ORIS</tspan><tspan y="0" letter-spacing="-0.063em">T</tspan><tspan y="0" letter-spacing="-0.01em">A</tspan><tspan y="0">S - IMPO</tspan><tspan y="0" letter-spacing="-0.012em">R</tspan><tspan y="0" letter-spacing="-0.062em">T</tspan><tspan y="0">ADORES</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Group_119" data-name="Group 119" transform="translate(83.13 21.042)" style="isolation: isolate">
+      <g id="Group_118" data-name="Group 118">
+        <g id="Group_117" data-name="Group 117" clip-path="url(#clip-path-4)">
+          <text id="SANTOS_L." data-name="SANTOS L." transform="translate(0 33.291)" fill="#fff" font-size="39" font-family="Texta-Heavy, Texta" font-weight="800"><tspan x="0" y="0" letter-spacing="-0.009em">S</tspan><tspan y="0">AN</tspan><tspan y="0" letter-spacing="-0.021em">T</tspan><tspan y="0">OS L.</tspan></text>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
