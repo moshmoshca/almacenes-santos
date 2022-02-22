@@ -26,6 +26,8 @@ body {
     font-weight: 700;
 
     color: #0B467E;
+
+    margin-bottom: 1.3rem;
 }
 
 .secondary-title {
@@ -432,4 +434,58 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+/*-------------------- Contact FORM ---------------------- */
+
+.form-container {
+    padding: 3.5rem 1.4rem;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.form li {
+    list-style: none;
+    
+    margin-bottom: 1rem;
+}
+
+.form input {
+    border: 0;
+    background-color: #E0E6EC;
+    border-radius: 1rem;
+    width: 100%;
+    padding: 0.8rem 1rem;
+
+    font-size: 1.2rem;
+    font-family: Texta, sans-serif;
+    color: #252525;
+}
+
+.form textarea {
+    border: 0;
+    background-color: #E0E6EC;
+    border-radius: 1rem;
+    padding: 0.8rem 1rem;
+    width: 100%;
+
+    font-size: 1.2rem;
+    font-family: Texta, sans-serif;
+    color: #252525;
+}
+
+.button.form {
+    border: 0;
+    width: 100%;
+    padding: 0.8rem 1rem;
+    background-color: #AB1B1E;
+
+    align-items: center;
+    color: white;
 }
