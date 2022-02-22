@@ -541,6 +541,11 @@ body {
     line-height: 1.8rem;
 }
 
+.footer-nav a {
+    text-decoration: none;
+    color: white;
+}
+
 .copyright {
     order: 4;
     padding: 0 3rem;
