@@ -244,9 +244,11 @@ body {
 }
 /* --------------------- Search Bar ---------------------- */
 
-.search-container {
+#search-bar {
     margin-top: 17rem;
+}
 
+.search-container {
     text-align: center;
 }
 
