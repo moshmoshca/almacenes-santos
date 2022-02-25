@@ -1,20 +1,14 @@
 /* Universal style */
-@font-face {
-    font-family: Texta;
-    src: url(./fonts/Texta-Regular-webfont.woff2) format("woff2"),
-        url(./fonts/Texta-Book-webfont.woff2), format("woff2"),
-        url(./fonts/Texta-Medium-webfont.woff2) format("woff2"),
-        url(./fonts/Texta-Bold-webfont.woff2) format("woff2");
-}
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 body {
-    font-family: Texta, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
     text-align: center;
 
@@ -52,7 +46,6 @@ body {
     color: #404040;
     font-size: 1.2rem;
     font-weight: 500;
-    font-family: Texta, sans-serif;
 
     padding: 0.6rem 3rem;
 
@@ -162,7 +155,7 @@ body {
 }
 
 .hero-text .heading {
-    font-size: 2.8rem;
+    font-size: 2.5rem;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 3rem;
@@ -504,7 +497,6 @@ body {
     padding: 0.8rem 1rem;
 
     font-size: 1.2rem;
-    font-family: Texta, sans-serif;
     color: #252525;
 }
 
@@ -516,7 +508,6 @@ body {
     width: 100%;
 
     font-size: 1.2rem;
-    font-family: Texta, sans-serif;
     color: #252525;
 }
 
