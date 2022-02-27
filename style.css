@@ -399,7 +399,10 @@ body {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
-    padding: 4rem 3.2rem;
+    padding: 0 3.2rem;
+    padding-top: 4rem;
+
+    margin-bottom: 3rem;
 
     position: relative;
 }
@@ -446,14 +449,10 @@ body {
 
 .feature-image.two {
     background-image: linear-gradient(0deg, rgba(171, 27, 30, 0.5),  rgba(171, 27, 30, 0.5)), url(./images/season-02.jpg);
-
-    /* background-position: bottom center; */
 } 
 
 .feature-image.three {
     background-image: linear-gradient(0deg, rgba(171, 27, 30, 0.5),  rgba(171, 27, 30, 0.5)), url(./images/season-03.jpg);
-
-    /* background-position: bottom center; */
 } 
 
 .feature .season-name {
@@ -464,63 +463,60 @@ body {
 
 /*-------------------- Core Values ---------------------- */
 
-#core-values {
-    background-color: #0B467E;
+.values-container {
     padding: 0 1.4rem;
-    margin-top: 7rem;
 
-    display: grid;
-    gap: 2rem;
-    grid-auto-rows: minmax(150px, auto);
-    grid-template-columns: repeat(4, 1fr);
-
-    position: relative;
+    margin-bottom: 4rem;
 }
 
-.values-container {
-    grid-row: 1 / span 3;
-    grid-column: 1 / span 4;
+.values-text .secondary-title {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2.375rem;
+    color: #0B467E;
+    line-height: 2.625rem;
 
-    background-color: #AB1B1E;
-    border-radius: 0.8rem;
-    padding: 2rem 1.5rem;
+    width: 80%;
+    margin: 0 auto;
 
-    color: white;
-
-    display: flex;
-    flex-direction: column;
-    flex: 1;
-    gap: 1.5rem;
-
-    position: absolute;
-    top: -4rem;
+    margin-bottom: 1.4rem;
 }
 
 .values-text p {
     line-height: 1.8rem;
 }
 
- .button.values-btn {
-   background-color: #E0FFFF;
-   margin: 0.5rem 0;
+.values-btn {
+    margin-top: 2rem;
 }
 
-.values-container .values-image {
-    height: 200px;
-    
-    background-image: url(./images/core-values-01.jpg);
+.values-image {
+    min-height: 14rem;
+    width: 100%;
+
+    background-image: url(./images/core-values-02.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    border-radius: 0.6rem;
+
+    margin-bottom: 4rem;
 }
 
 /*-------------------- Contact Info ---------------------- */
 
 .contacts-container {
-    padding: 3.5rem 1.4rem 3rem;
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 4rem;
 }
 
-.contacts-container .title {
+.contacts-info {
+    order: 1;
+
+    padding: 0 1.4rem 2rem;
+}
+
+.contacts-info .title {
+    text-align: center;
     margin-bottom: 1.3rem;
 }
 
@@ -529,7 +525,10 @@ body {
 }
 
 .contacts-img {
-    height: 40vh;
+    order: 2;
+
+    min-height: 18.125rem;
+
     background-image: url(./images/contact-01.jpg);
     background-size: cover;
     background-position: center;
@@ -539,7 +538,7 @@ body {
 /*-------------------- Contact FORM ---------------------- */
 
 .form-container {
-    padding: 3.5rem 1.4rem;
+    padding: 0 1.4rem;
 }
 
 .form {
