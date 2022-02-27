@@ -358,7 +358,6 @@ body {
     color: #252525;
 }
 
-
 .prod-icon.glass img {
     height: 4rem;
 }
@@ -386,47 +385,81 @@ body {
 
 /*-------------------- Seasonal products -------------------- */
 
-.season-container {
-    margin-top: 3rem;
-    padding: 0 1.18rem;
+.season-img {
+    background-image: url(./images/season-00.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    width: 100%;
+    min-height: 17rem;
 }
 
 .season-feat {
     display: flex;
     flex-direction: column;
     gap: 2.5rem;
-    padding: 0 3.2rem;
+    padding: 4rem 3.2rem;
+
+    position: relative;
+}
+
+.season-feat .title {
+    padding-left: 2.9rem;
+
+    width: 100%;
+}
+
+.season-feat .title::before {
+    content: "";
+    height: 54px;
+    width: 7px;
+    background-color: #AB1B1E;
+    
+    position: absolute;
+    top: 4.1875rem;
+    left: 4rem;
+}
+
+.feature {
+    margin-bottom: 1.5rem;
 }
 
 .season-feat .feature-image {
     border-radius: 0.6rem;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: bottom center;
     background-size: cover;
-}
 
-.feature-image {
-    min-height: 15rem;
+    min-height: 10rem;
 
-    margin-bottom: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .feature-image.one {
-    background-image: url(./images/season-01.jpg);
+    background-image: linear-gradient(0deg, rgba(171, 27, 30, 0.5),  rgba(171, 27, 30, 0.5)), url(./images/season-01.jpg);
+
+    background-position: center;
 }
 
 .feature-image.two {
-    background-image: url(./images/season-02.jpg);
+    background-image: linear-gradient(0deg, rgba(171, 27, 30, 0.5),  rgba(171, 27, 30, 0.5)), url(./images/season-02.jpg);
+
+    /* background-position: bottom center; */
 } 
 
 .feature-image.three {
-    background-image: url(./images/season-03.jpg);
+    background-image: linear-gradient(0deg, rgba(171, 27, 30, 0.5),  rgba(171, 27, 30, 0.5)), url(./images/season-03.jpg);
+
+    /* background-position: bottom center; */
 } 
 
 .feature .season-name {
-    font-weight: 400;
+    font-weight: 500;
     font-size: 1.3rem;
-    color: #252525;
+    color: #fff;
 }
 
 /*-------------------- Core Values ---------------------- */
