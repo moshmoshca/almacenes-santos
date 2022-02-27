@@ -424,6 +424,31 @@ body {
 
 @media (min-width: 35em) and (max-width: 55em) {
 
+    #products {
+        margin: 4rem;
+        padding: 3rem;
+        border-radius: 1rem;
+    }
+
+    .prod-categories .title {
+        padding: 0;
+        margin-left: 3.8rem;
+    }
+
+    .prod-categories .title::before {
+        height: 25px;
+        width: 7px;
+        top: 0.1875rem;
+        left: 2.5rem;
+    }
+
+    .categories-container {
+        padding: 0;
+        justify-content: space-around;
+
+        gap: 2rem;
+    }
+
 }
 
 
@@ -505,6 +530,39 @@ body {
     color: #fff;
 }
 
+/* ========= Seasonal Products Media Query ========= */
+/* ================================================== */
+
+@media (min-width: 35em) and (max-width: 55em) {
+
+    .season-img {
+        min-height: 24rem;
+    }
+
+    .season-feat .title {
+        text-align: center;
+    }
+
+    .season-feat .title::before {
+        height: 25px;
+        width: 7px;
+        top: 4.1875rem;
+        left: 11.5rem;
+    }
+
+    .feature-container {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .season-feat .feature-image {
+        max-width: 10rem;
+    }
+
+}
+
+
 /*-------------------- Core Values ---------------------- */
 
 .values-container {
@@ -542,6 +600,60 @@ body {
     background-repeat: no-repeat;
 
     margin-bottom: 4rem;
+}
+
+/* ========= Core Values Media Query ========= */
+/* ================================================== */
+
+@media (min-width: 35em) and (max-width: 55em) {
+
+    #core-values {
+        position: relative;
+    }
+
+    .values-container {
+        margin: 0 4rem;
+        padding: 0;
+
+    }
+
+    .values-text {
+        text-align: left;
+        width: 78%;
+        
+    }
+
+    .values-text .secondary-title {
+        margin: 0;
+        margin-bottom: 1.4rem;
+
+        font-size: 3rem;
+
+        width: 100%;
+    }
+
+    .values-img-container {
+        margin: 4rem 4rem;
+
+    }
+
+    .values-image {
+        min-height: 21rem;
+        z-index: 10;
+    }
+
+    .values-image::after {
+        content: "";
+        background-color: #AB1B1E;
+        position: absolute;
+        min-width: 9rem;
+        height: 51rem;
+        top: 0;
+        right: 0;
+
+        z-index: -1;
+    }
+
 }
 
 /*-------------------- Contact Info ---------------------- */
