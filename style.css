@@ -135,8 +135,13 @@ body {
 }
 
 @media (min-width: 35em) and (max-width: 55em) {
+
+    .nav-container {
+        padding: 1rem 4rem;
+    }
+
     .primary-nav {
-        font-size: 1.2em;
+        font-size: 1em;
         align-items: center;
         gap: 1.4rem;
     }
@@ -221,32 +226,55 @@ body {
 
 @media (min-width: 35em) and (max-width: 55em) {
  
+    #hero {
+        height: 50vh;
+    }
+
     .hero-container {
         padding: 4rem 4rem;
         text-align: left;
+
+        flex-direction: row;
+
+        width: 64%;
     }
 
     .hero-text .heading {
-        font-size: 3.5rem;
-        line-height: 3.5rem;
+        font-size: 2.5rem;
+        line-height: 2.8rem;
     }
 
     .hero-images {
+
         padding: 0 2.5rem;
-        height: 500px;
+        height: 31.25rem;
+        width: 80%;
         gap: 1.2rem;
+
+        top: 4rem;
+        left: 26rem;
     }
 
-    /* Search */
-
-    .search-container {
-        margin-bottom: 7rem;
+    .hero-img.one {
+        display: none;
     }
 
-    /* Seasons */
+    .hero-img.four {
+        background-image: url(./images/hero-img-03.jpg);
+        
+        grid-row: 1 / span 2;
+        grid-column: 1 / span 3;
+    }
 
-    .season-container {
-        margin-top: 6rem;
+    .hero-img.two {
+        background-image: url(./images/hero-img-01.jpg);
+        
+        grid-row: 3 / span 1;
+        grid-column: 1 / span 3;
+    }
+
+    .hero-img.three {
+        display: none;
     }
 
 }
@@ -283,6 +311,15 @@ body {
     font-size: 1rem;
 }
 
+
+/* =============== Search bar Media Query ================= */
+/* ================================================== */
+
+@media (min-width: 35em) and (max-width: 55em) {
+    #search-bar {
+        margin-top: 4rem;
+    }
+}
 
 /* ------------------ Products Categories ------------------- */
 
@@ -380,6 +417,13 @@ body {
 
 .prod-icon.offers img {
     height: 3rem;
+}
+
+/* ========= Product Categories Media Query ========= */
+/* ================================================== */
+
+@media (min-width: 35em) and (max-width: 55em) {
+
 }
 
 
