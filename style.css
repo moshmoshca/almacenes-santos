@@ -374,13 +374,24 @@ body {
     font-size: 1rem;
 }
 
-
 /* =============== Search bar Media Query ================= */
 /* ================================================== */
 
 @media (min-width: 35em) and (max-width: 55em) {
     #search-bar {
         margin-top: 4rem;
+    }
+}
+
+@media (min-width: 55em) {
+    
+    #search-bar {
+        margin: 6.75rem 0;
+    }
+
+    .search-container {
+        max-width: 70%;
+        margin: 0 auto;
     }
 }
 
@@ -514,6 +525,17 @@ body {
 
 }
 
+@media (min-width: 55em) {
+
+    #products {
+        margin: 0 8rem;
+        margin-bottom: 6.75rem;
+        border-radius: 0.6rem;
+
+        padding: 3rem;
+    }
+}
+
 
 /*-------------------- Seasonal products -------------------- */
 
@@ -628,6 +650,58 @@ body {
     }
 }
 
+@media (min-width: 55em) {
+
+    .season-container {
+        display: flex;
+
+        min-height: 26.75rem;
+    }
+
+    .season-img {
+        max-height: 30rem;
+        max-width: 50%;
+    }
+
+    .season-feat {
+        padding-top: 0;
+        padding-right: 8rem;
+        margin: 0 auto;
+
+        justify-content: center;
+        gap: 0;
+    }
+
+    .season-feat .title {
+        padding-left: 1.3rem;
+
+        margin-bottom: 2rem;
+    }
+
+    .season-feat .title::before {
+        height: 24px;
+        width: 7px;
+        top: 6.6rem;
+        left: 3.2rem;
+    }
+
+    .feature-container {
+        display: flex;
+
+        gap: 1rem;
+    }
+
+    .feature {
+        margin-bottom: 0;
+
+        min-width: 10rem;
+    }
+
+    .feature .season-name {
+        font-size: 1rem;
+        width: 90%;
+    }
+}
 
 /*-------------------- Core Values ---------------------- */
 
@@ -722,6 +796,42 @@ body {
 
 }
 
+@media (min-width: 55em) {
+
+    #core-values {
+        display: flex;
+        align-items: center;
+        flex: 1;
+        padding: 6.75rem;
+    }
+
+    .values-container {
+        padding-left: 0;
+        max-width: 60%;
+
+        margin-bottom: 0;
+    }
+
+    .values-text {
+        text-align: left;
+        padding-right: 3.5rem;
+    }
+
+    .values-text .secondary-title {
+        margin: 0;
+        margin-bottom: 2rem;
+        width: 100%;
+    }
+
+    .values-img-container {
+        width: 50%;
+    }
+
+    .values-image {
+        margin-bottom: 0;
+    }
+}
+
 /*-------------------- Contact Info ---------------------- */
 
 #contacts-form {
@@ -751,9 +861,8 @@ body {
 }
 
 .contacts-img {
-    display: none;
-
     /* Doesn't work to have this image on mobile */
+    display: none;
 
     order: 2;
 
@@ -787,6 +896,13 @@ body {
 
     #contacts .fb-icon {
         padding-left: 0;
+    }
+}
+
+@media (min-width: 55em) {
+
+    .contacts-img {
+        display: block;
     }
 }
 
