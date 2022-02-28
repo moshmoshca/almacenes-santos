@@ -656,11 +656,15 @@ body {
 
 /*-------------------- Contact Info ---------------------- */
 
+#contacts-form {
+    background-color: rgba(112, 112, 112, 0.06);
+    padding: 4rem 1.4rem;
+}
+
 .contacts-container {
     display: flex;
     flex-direction: column;
 
-    margin-bottom: 4rem;
 }
 
 .contacts-info {
@@ -679,6 +683,10 @@ body {
 }
 
 .contacts-img {
+    display: none;
+
+    /* Doesn't work to have this image on mobile */
+
     order: 2;
 
     min-height: 18.125rem;
@@ -690,11 +698,6 @@ body {
 }
 
 /*-------------------- Contact FORM ---------------------- */
-
-.form-container {
-    padding: 0 1.4rem;
-    padding-bottom: 4rem;
-}
 
 .form-container .title {
     font-size: 2.3755rem;
@@ -743,7 +746,7 @@ body {
 .button.form {
     border: 0;
     width: 100%;
-    padding: 0.8rem 1rem;
+    padding: 1.2rem 1rem;
     background-color: #AB1B1E;
 
     align-items: center;
